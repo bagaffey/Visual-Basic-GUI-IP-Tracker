@@ -82,6 +82,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.btnTrackIP)
         Me.Controls.Add(Me.pbxLogo)
         Me.Name = "MainForm"
+        Me.MinimumSize = New System.Drawing.Size(600, 512)
         Me.Text = "Visual Basic GUI Interface for tracking the killer"
         CType(Me.pbxLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

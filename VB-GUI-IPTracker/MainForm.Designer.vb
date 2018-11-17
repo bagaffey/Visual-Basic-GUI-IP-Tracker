@@ -43,6 +43,7 @@ Partial Class MainForm
         '
         'btnTrackIP
         '
+        Me.btnTrackIP.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnTrackIP.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnTrackIP.Location = New System.Drawing.Point(248, 292)
         Me.btnTrackIP.Name = "btnTrackIP"
@@ -53,6 +54,7 @@ Partial Class MainForm
         '
         'lblKillerIP
         '
+        Me.lblKillerIP.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblKillerIP.AutoSize = True
         Me.lblKillerIP.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblKillerIP.Location = New System.Drawing.Point(244, 390)
@@ -63,6 +65,7 @@ Partial Class MainForm
         '
         'txtKillersIP
         '
+        Me.txtKillersIP.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.txtKillersIP.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtKillersIP.Location = New System.Drawing.Point(248, 417)
         Me.txtKillersIP.Name = "txtKillersIP"
